@@ -1,0 +1,46 @@
+/*Contenedor de los proyectos*/
+.container-projects{
+    width: 60%;
+    /* height: 500px; */
+}
+
+/*Contenedor de los iconos*/
+.job__experience--icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+/*Icono React*/
+.icon-react{
+    color: rgba(0, 0, 255, 0.741);
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/*Icono Photoshop*/
+.icon-photoshop{
+    background-color: rgba(2, 2, 59, 0.741);
+    font-size: 15px;
+    color:  rgba(42, 42, 197, 0.97);
+    margin-right: 5px;
+
+}
+
+/*Icono Javascript*/
+.icon-javascript{
+    font-size: 15px;
+    color:  rgba(242, 255, 0, 0.97);
+    margin-right: 5px;
+
+}
+
+/*Icono CorelDraw*/
+.icon-corel{
+    font-size: 15px;
+    color:  rgba(0, 255, 47, 0.97);
+    margin-right: 5px;
+
+}

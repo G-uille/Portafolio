@@ -1,0 +1,75 @@
+
+/*Contenedor principal del proyecto lPChat*/
+.container-project__lpchat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 92px;
+}
+
+/*Contenedor de la imagen con el titulo y la descripcion*/
+.container-project__lpchat--img-with-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    /* background: #0c0f23; */
+    padding: 15px;
+    border-radius: 20px;
+    padding-bottom: 0;
+    max-height: 400px;
+   /*  background: url(".././../images//fondo_project.png"); */
+}
+
+/*Contenedor del titulo del proyecto*/
+.container-project__lpchat--title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Titulo del Contenedor*/
+.project__lpchat--title{
+    color: #6772cb;
+    background-color: #0c0f23;
+    padding: 5px 80px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+/*--Imagen de la notebook---*/
+.img-notebook__projects{
+    width: 627px;
+}
+
+/*----Titulo de LPCHAT-----*/
+.title--h2.medium{
+    font-size: 40px;
+    text-align: center;
+}
+
+/*--Descripcion del proyecto---*/
+.job__experience--description.lpchat{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*----Boton para conocer mas------*/
+.btn-search-more{
+    padding: 10px 40px 10px 40px;
+    cursor: pointer;
+    background-color: var(--title-secondary-color);
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+}

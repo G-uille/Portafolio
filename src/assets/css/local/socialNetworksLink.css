@@ -1,0 +1,16 @@
+
+/*Contenedor de los links*/
+.container-network-links{
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*Icono de la red social*/
+.network-link__icon{
+    margin-right: 5px;
+    cursor: pointer;
+}
+

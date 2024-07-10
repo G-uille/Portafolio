@@ -1,0 +1,16 @@
+:root{
+  --title-primary-color: #ffffff;
+  --title-secondary-color: #5468ff;
+  --bg: #0A0E1D;
+  --bg-degraded-gradient: #1A1D35;
+  --btn-primary-color: #1F2937;
+  --btn-primary-border-color: #444F5D;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+}
+

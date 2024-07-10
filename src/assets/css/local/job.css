@@ -1,0 +1,80 @@
+
+/*--Contenedor del trabajo---*/
+.container-job__experience{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+/*---Contedor del la posicion del cargo con la duracion--*/
+.job__experience--position-with-duration{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+    width: 60%;
+}
+
+/*---Titulo del cargo--*/
+.title--h2{
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    color: var(--title-secondary-color);
+    margin-bottom: 5px;
+}
+
+/*---Empresa---*/
+.title--h3.semiBold{
+    font-size: 18px;
+    font-weight: 400;    
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/*---Empresa---*/
+.title--h3.semiBold.project{
+    text-align: center;
+}
+
+/*---Duracion del cargo---*/
+.title--h3.regular{
+    font-size: 14px;
+    font-weight: 200;    
+    color: #c7c7c7;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/*--Contenedor de la descripcion del trabajo--*/
+.job__experience--description{
+    width: 682px;
+}
+
+/*Descricion del trabajo*/
+.job--description{
+    font-size: 14px;
+    color: #c7c7c7;
+    width: 100%;
+}
+
+/*--Contenedor vacio para viñeta--*/
+.empty-container{
+    height: 100%;
+    width: .6px;
+    background: #979797;
+    margin-right: 15px;
+}
+
+/*--Icono de circulo--*/
+.circle__icon{
+    color: var(--title-secondary-color);
+    position: relative;
+    left: 7px;
+}

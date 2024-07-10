@@ -1,0 +1,42 @@
+@media (max-width: 1470px) {
+    /*---Contedor del la posicion del cargo con la duracion--*/
+    .job__experience--position-with-duration{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: left;
+        padding: 20px;
+        width: 50%;
+    }   
+
+    /*----Titulo de LPCHAT-----*/
+    .title--h2.medium{
+        font-size: 40px;
+    }
+
+    /*---Empresa---*/
+    .title--h3.semiBold.project{
+        font-size: 12px;
+    }
+
+    /*Contenedor de los iconos*/
+    .job__experience--icons{
+        width: 90%;
+    }
+
+    /*Contenedor del button*/
+    .btn-social-network{
+        padding: 5px 20px;
+        display: flex;
+        justify-content: left;
+        border-radius: 15px;
+        border: 1px solid var(--btn-primary-border-color);
+        align-items: center;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 20px;
+        background-color: var(--btn-primary-color);
+        font-size: 7px;
+        color: #ffffff;
+    }
+}
